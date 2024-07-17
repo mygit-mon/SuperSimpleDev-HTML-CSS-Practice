@@ -1,0 +1,33 @@
+.firstname,
+.lastname {
+  padding: 10px 8px;
+  width: 120px;
+  border-radius: 6px;
+  border: solid 1px rgba(0, 0, 0, 0.388);
+  margin-top: 10px;
+}
+
+.email {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 269px;
+  padding: 10px 5px;
+  border-radius: 8px;
+  border: solid 1px rgba(0, 0, 0, 0.388);
+}
+
+button {
+  background-color: #4386f1;
+  color: white;
+  border: none;
+  padding: 12px 116px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+button:hover {
+  background-color: #417cdc;
+}

@@ -1,0 +1,9 @@
+.name-textbox,
+.email-textbox {
+  display: block;
+  margin-bottom: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.489);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 2px;
+}
