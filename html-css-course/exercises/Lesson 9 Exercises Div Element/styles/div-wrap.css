@@ -1,0 +1,7 @@
+.sub-wrapper {
+  border: solid 1px rgb(208, 204, 204);
+  padding-left: 10px;
+  padding-bottom: 20px;
+  width: 300px;
+  display: inline-block;
+}

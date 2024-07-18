@@ -1,0 +1,57 @@
+.main-wrapper {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 2px solid blue;
+}
+
+.dog-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.dog-info {
+  font-family: Montserrat;
+  font-size: 12px;
+  width: 170px;
+  height: 60px;
+
+  border: 2px solid blue;
+}
+
+.dog-name {
+  font-weight: 700;
+  margin-bottom: 5px;
+  border: 2px solid red;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.dog-type {
+  color: gray;
+  margin: 0;
+  border: 2px solid red;
+}
+
+.dog-status {
+  color: gray;
+  margin: 0;
+  border: 2px solid red;
+}
+
+.follow-btn {
+  background-color: rgb(26, 137, 206);
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.follow-btn:hover {
+  background-color: rgb(27, 119, 176);
+}

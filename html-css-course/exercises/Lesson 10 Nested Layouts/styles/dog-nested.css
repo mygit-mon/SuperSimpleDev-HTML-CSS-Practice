@@ -1,0 +1,59 @@
+.main-wrapper {
+  width: 250px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 2px solid blue;
+  font-family: Montserrat;
+}
+
+.profile-picture {
+  display: inline-block;
+}
+
+.dog-profile {
+  width: 40px;
+  height: 40px;
+  padding-top: 3px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.dog-info {
+  display: inline-block;
+  width: 150px;
+  font-size: 12px;
+
+  border: 2px solid blue;
+}
+
+.name {
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 2px;
+  border: 2px solid red;
+}
+
+.type,
+.status {
+  color: gray;
+  margin: 0;
+  margin-bottom: 2px;
+  border: 2px solid red;
+}
+
+.follow-dog {
+  display: inline-block;
+
+  margin: 0;
+}
+
+.follow-btn {
+  background-color: rgb(26, 137, 206);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}

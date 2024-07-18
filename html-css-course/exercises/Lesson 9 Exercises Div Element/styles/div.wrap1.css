@@ -1,0 +1,35 @@
+.input-wrapper {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  padding-left: 8px;
+  margin-top: 20px;
+  width: 400px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.221);
+}
+
+.dog-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.input-box {
+  border: none;
+  margin-left: 2px;
+  padding: 10px 12px;
+  width: 220px;
+}
+
+.tweet-btn {
+  background-color: rgb(26, 161, 242);
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 12px;
+  margin-left: 20px;
+}

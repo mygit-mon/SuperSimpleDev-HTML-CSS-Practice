@@ -1,0 +1,72 @@
+.main-wrapper {
+  width: 130px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  font-family: Montserrat;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.dog-profile {
+  width: 130px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid blue;
+}
+
+.dog-details {
+  width: 125px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border: 2px solid blue;
+}
+
+.dog-name {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 2px;
+  border: 2px solid red;
+}
+
+.dog-mutual-wrapper {
+  border: 2px solid red;
+}
+
+.profile-wrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mutual-image {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid blue;
+}
+
+.mutuals-wrapper {
+  width: 80px;
+  display: inline-block;
+  border: 2px solid blue;
+}
+
+.mutually {
+  font-size: 9px;
+  color: gray;
+  width: 100%;
+  margin: 0;
+}
+
+.button-wrapper {
+  border: 2px solid red;
+}
+
+.addfriend-btn {
+  color: white;
+  border: none;
+  background-color: #3680ca;
+  padding: 6px 12px;
+  border-radius: 3px;
+  margin-top: 2px;
+}
