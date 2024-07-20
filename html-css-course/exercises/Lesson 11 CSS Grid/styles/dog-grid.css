@@ -1,0 +1,64 @@
+p {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  column-gap: 10px;
+}
+
+.dog-profile {
+  width: 120px;
+  box-shadow: 0 1px 6px rgb(0, 0, 0, 0.2);
+}
+
+.info-wrapper {
+  padding-left: 5px;
+  padding-bottom: 6px;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 130px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.dog-name {
+  font-size: 12px;
+  margin: 0;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+.mutual-wrapper {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.mutual-profile {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.dog-mutuals {
+  font-size: 10px;
+  color: rgba(103, 102, 102, 0.758);
+  margin: 0;
+}
+
+.add-wrapper {
+  margin-top: 2px;
+}
+
+.add-btn {
+  background-color: #447edb;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 2px;
+}
