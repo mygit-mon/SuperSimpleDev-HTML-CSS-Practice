@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-flexbox {
+  width: 200px;
+  background-color: lightblue;
+}
+
+.second-flexbox {
+  width: 75px;
+  background-color: lightpink;
+}
