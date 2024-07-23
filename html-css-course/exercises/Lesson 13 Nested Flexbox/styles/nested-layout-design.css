@@ -1,0 +1,57 @@
+p {
+  font-family: Montserrat;
+  margin: 0;
+}
+
+.main-wrapper {
+  width: 300px;
+  padding: 6px 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.inbox-title {
+  font-size: 12px;
+  color: rgb(99, 99, 99);
+  padding-bottom: 10px;
+}
+
+.message-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-profile {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.message-details {
+  padding-left: 6px;
+}
+
+.message-promotion {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-promotion {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.time-promotion-sent {
+  color: rgb(99, 99, 99);
+  font-size: 10px;
+}
+
+.message-sale-promotion {
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.message-sent {
+  font-size: 11px;
+  color: rgb(99, 99, 99);
+}

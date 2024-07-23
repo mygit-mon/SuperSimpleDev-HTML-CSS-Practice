@@ -1,0 +1,29 @@
+.main-wrapper {
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+.pink-wrapper {
+  background-color: lightpink;
+  height: 60px;
+  width: 100px;
+}
+
+.blue-wrapper {
+  background-color: lightblue;
+  height: 60px;
+  width: 200px;
+}
+
+.row-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  background-color: black;
+  color: white;
+}

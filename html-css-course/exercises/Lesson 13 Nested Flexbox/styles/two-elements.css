@@ -1,0 +1,23 @@
+.main-wrapper {
+  display: flex;
+}
+
+.item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  background-color: lightpink;
+}
+
+.item2 {
+  height: 50px;
+  width: 200px;
+  background-color: lightblue;
+}
+
+.item-paragraph {
+  background-color: black;
+  color: white;
+}

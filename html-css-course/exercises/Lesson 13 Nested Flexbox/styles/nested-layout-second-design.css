@@ -1,0 +1,83 @@
+p {
+  font-family: Montserrat;
+  margin: 0;
+}
+
+.post-details {
+  display: flex;
+  width: 370px;
+}
+
+.user-profile-wrapper {
+  margin-right: 8px;
+  width: 40px;
+}
+
+.user-profile {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.username-wrapper {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.username {
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.user-email {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(81, 81, 124);
+}
+
+.message-content {
+  margin-bottom: 8px;
+}
+
+.message-post {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.link-content {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.bg-gray {
+  width: 85px;
+  height: 80px;
+  background-color: rgb(186, 185, 185);
+  border-radius: 15px 0 0 15px;
+}
+
+.link-details {
+  padding-left: 10px;
+  flex: 1;
+}
+
+.youtube-link {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(81, 81, 124);
+  margin-bottom: 3px;
+}
+
+.youtube-description {
+  font-size: 13px;
+  line-height: 16px;
+}
