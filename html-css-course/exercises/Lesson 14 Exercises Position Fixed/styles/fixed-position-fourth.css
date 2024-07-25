@@ -1,0 +1,48 @@
+p {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+body {
+  height: 3000px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: green;
+  width: 100px;
+}
+
+.overlay {
+  background-color: rgba(172, 171, 171, 0.527);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  width: 300px;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.modal-content {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}

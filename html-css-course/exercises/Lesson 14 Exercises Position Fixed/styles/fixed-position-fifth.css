@@ -1,0 +1,53 @@
+body {
+  height: 3000px;
+}
+
+p {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.flex-wrapper {
+  display: flex;
+  position: fixed;
+  right: 50px;
+  left: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-fixed {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.dog-name {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.add-btn {
+  background-color: rgb(58, 105, 248);
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+.message-btn {
+  padding: 6px 12px;
+  border: 0;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+}
